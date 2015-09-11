@@ -1,22 +1,33 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="hu">
 <head>
 	<title>Selyemsziget</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Tartós szőrtelenítés">
+	<meta name="keywords" content="szőrtelenítés, szőr, teljes, tartós, test, láb, hónalj, bajusz, bikini, mellkas, has, hát, selyem, selyemsziget">
+	
+	<!--<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Courgette&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	-->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Montserrat'  type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
 	
  
 <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
 </head>
 	<body>
-	<a href="index.php">
+		
+	<!-- <a href="index.php">
 		<header>
 				<div class="selyem-logo">Selyemsziget</div>
 				<div class="sub-logo">Tartós szőrtelenítés</div>
 		</header>
 	</a>
-		<nav class="">
+		<nav class="navbar navbar-default container-fluid">
 				<a href="index.php" class="<?php echo $nav_active["fooldal"] ?>">Főoldal</a>
 				<a href="technologia.php" class="<?php echo $nav_active["technologia"] ?>">A technológiáról</a>
 				<a href="arlista.php" class="<?php echo $nav_active["arlista"] ?>">Árlista</a>
@@ -24,3 +35,23 @@
 				<a href="galeria.php" class="<?php echo $nav_active["galeria"] ?>">Galéria</a>
 				<a href="kapcsolat.php" class="<?php echo $nav_active["kapcsolat"] ?>">Kapcsolat</a>
 		</nav>
+	-->
+	
+	<nav class="navbar navbar-default container-fluid">
+		<div class="col-md-4"></div>
+		<img class="col-md-4" src="logo.png" alt="Selyemsziget logó" >
+		<div class="col-md-4"></div>
+
+		<ul class="nav nav-pills col-md-12">
+			<li><a href="index.php" class="nav navbar-nav"><span class="glyphicon glyphicon-home"></span></a></li>
+			<li><a href="technologia.php" class="nav navbar-nav active">A technológiáról</a></li>
+			<li><a href="arlista.php" class="nav navbar-nav">Árlista</a></li>
+			<li><a href="akciok.php" class="nav navbar-nav">Akciók</a></li>
+			<li><a href="galeria.php" class="nav navbar-nav">Galéria</a></li>
+			<li><a href="kapcsolat.php" class="nav navbar-nav">Kapcsolat</a></li>
+			<li class="navbar-right"><a href="#" class="nav navbar-nav"><i class="fa fa-google-plus-square fa-lg"></i></a></li>
+			<li class="navbar-right"><a href="#" class="nav navbar-nav"><i class="fa fa-facebook-official fa-lg"></i></a></li>
+			<li class="navbar-right"><a href="#" class="nav navbar-nav"><i class="fa fa-skype fa-lg"></i></a></li>
+
+		</ul>
+	</nav>
