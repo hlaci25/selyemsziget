@@ -1,0 +1,16 @@
+body{background-color: #FAF9F9; color: #6B717E;}
+.page-header{border-bottom: none; }
+.navbar {background-color: #FFC4D1; border-color: #EFAAC4; padding-bottom: 8px; padding-left: 5%; padding-right: 5%;}
+.navbar-nav{color: #FAF9F9; font-family: 'Montserrat', sans-serif; font-weight: bold; font-size: 18px;}
+.nav-pills>li>a:hover {color: #FAF9F9; background-color: #EFAAC4 !important;}
+.container{padding-top: 5%; padding-bottom: 5%;}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {background-color: #F7D6E0;}
+footer{color: #FAF9F9; background-color: #FFC4D1; border-color: #EFAAC4; border-radius:5px;  padding-top: 8px;
+
+/* A saját böngészőmben a footer nem maradt az oldal alján, 
+ha kevés volt (hosszában túl rövid) az oldalon a tartalom. 
+Amennyiben a modern böngészőkben is így jelenik meg,
+ezt találtam ki megoldásnak:
+position: fixed; bottom: 0; left: 0; right: 0;
+*/
+}
