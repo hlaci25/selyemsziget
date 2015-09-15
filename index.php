@@ -7,5 +7,5 @@
 	require_once 'view/technologia.html';
 	require_once 'view/footer.html';*/
 	
-	require_once 'technologia.php';
+	require_once 'fooldal.php';
 ?>

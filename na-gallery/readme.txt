@@ -18,11 +18,11 @@ A képeket ftp-vel kell feltölteni a megadott mappába, eztán automatikusan tesz a
 
 
 ================
-Fájlok és mappák
+Fájlok és mappák		//minden fájl és mappa áthelyezve a gyökérkönyvtárba!
 ================
-index.php		- Ez a fájl jeleníti meg a galériát
+index.php		- Ez a fájl jeleníti meg a galériát //átnevezve show.php 
 readme.txt		- Ismertetõ a scripthez
-thumbnail.php	        - Ez a fájl készíti el a bélyegképeket ésgondoskodik a megjelenítésrõl
+thumbnail.php	        - Ez a fájl készíti el a bélyegképeket ésgondoskodik a megjelenítésrõl 
 cache                   - Ebbe a mappába kerülnek a bélyegképek, a mappának írhatónak kell lennie
 photo                   - Alapértelmezésben ebbe a mappába kell feltölteni a megjeleníteni kívánt fotókat
 highslide               - A mappa és a tartalma gondoskodik az esztétikus kép megjelenítésrõl

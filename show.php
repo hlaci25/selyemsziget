@@ -7,11 +7,11 @@
 
 
 // beállítások
-$mappa = "photo"; //képek könyvtára
+$mappa = "galeria"; //képek könyvtára
 
-$columns     = 4; //oszlopok száma
-$thmb_width  = 120; //bélyegkép szélessége
-$thmb_height = 80; //bélyegkép magassága
+$columns     = 5; //oszlopok száma
+$thmb_width  = 150; //bélyegkép szélessége
+$thmb_height = 100; //bélyegkép magassága
 
 // innentől ne módosítsd ha nem tudod mit csinálsz!
 
@@ -76,7 +76,7 @@ img {
 	});
 </script>
       <table align='center'><tr>"; 
-
+$act = 0;
 if($open = opendir($mappa))
 {
    while(false !== ($file = readdir($open)))
